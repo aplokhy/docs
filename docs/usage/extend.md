@@ -9,7 +9,7 @@ it possible to add methods at runtime.
 You can add a new method using `macro`:
 
 ```php
-Nugram::macro('sendHelloMessage', function() {
+Nutgram::macro('sendHelloMessage', function() {
     return $this->sendMessage('Hello!');
 });
 
